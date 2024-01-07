@@ -1,0 +1,19 @@
+name: eosc-dsd24
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.11
+  - jupyter-book
+  - jupyterlab=3.*
+  - matplotlib
+  - numpy
+  - ghp-import
+  - pooch
+  - git
+  - jupyterlab-git
+  - pip:
+    - wget
+    - sphinx-exercise
+    - jupytext
+    - nbgitpuller
