@@ -6,5 +6,12 @@ root: intro
 chapters:
 - file: coc
 - file: agenda
+- file: terminology
+- file: current
+- file: fair_os
 - file: registration
-
+- file: example
+- file: exercises
+- file: collaboration
+- file: next
+- file: feedback
