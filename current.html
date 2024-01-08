@@ -65,8 +65,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'current';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="FAIR and Open Science" href="fair_os.html" />
-    <link rel="prev" title="A short introduction to EOSC and its terminology" href="terminology.html" />
+    <link rel="next" title="Getting started with EOSC" href="registration.html" />
+    <link rel="prev" title="FAIR and Open Science" href="fair_os.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -179,9 +179,9 @@ const thebe_selector_output = ".output, .cell_output"
         <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="coc.html">Code of Conduct and community participation guidelines</a></li>
 <li class="toctree-l1"><a class="reference internal" href="agenda.html">Agenda for the session</a></li>
-<li class="toctree-l1"><a class="reference internal" href="terminology.html">A short introduction to EOSC and its terminology</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Discussion on current working practices and bottlenecks</a></li>
+<li class="toctree-l1"><a class="reference internal" href="terminology.html">The European Open Science Cloud (EOSC)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fair_os.html">FAIR and Open Science</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Discussion on current working practices and bottlenecks</a></li>
 <li class="toctree-l1"><a class="reference internal" href="registration.html">Getting started with EOSC</a></li>
 <li class="toctree-l1"><a class="reference internal" href="example.html">Work along session with an example</a></li>
 <li class="toctree-l1"><a class="reference internal" href="exercises.html">Try it out yourself</a></li>
@@ -360,7 +360,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -376,6 +378,15 @@ document.write(`
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#identifying-current-practices">Identifying current practices</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#can-o">Can O</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -387,6 +398,42 @@ document.write(`
                   
   <section class="tex2jax_ignore mathjax_ignore" id="discussion-on-current-working-practices-and-bottlenecks">
 <h1>Discussion on current working practices and bottlenecks<a class="headerlink" href="#discussion-on-current-working-practices-and-bottlenecks" title="Permalink to this heading">#</a></h1>
+<section id="identifying-current-practices">
+<h2>Identifying current practices<a class="headerlink" href="#identifying-current-practices" title="Permalink to this heading">#</a></h2>
+<p>As a whole classroom or in small groups (3-4) depending on the total number of participants.</p>
+<p>The main goal of this exercise is to understand the current practices of researchers (how they effectively work in their lab) with a goal to express the main bottlenecks.</p>
+<ul class="simple">
+<li><p>You can use the figure below that sketches the research life cycle:</p></li>
+</ul>
+<p><img alt="research life cycle sketch" src="_images/researchdatalifecycle.jpg" /></p>
+<p>You can also use the slide below as a guidance of the different categories to consider:</p>
+<p><img alt="Earth Scientist working practices" src="_images/earth_scientists.png" /></p>
+<p>And you can also consider the following list of questions:</p>
+<ul class="simple">
+<li><p>How do you on-board newcomers in your team?</p></li>
+<li><p>How do you retain knowledge and practices when a postdoc, PhD, staff leaves your team? Have you established off-boarding procedures?</p></li>
+<li><p>Have you established specific guidelines in your team or are you using the general guidelines of your university/organization?</p></li>
+<li><p>Has your University/organization providing tools and services to facilitate the publication of data, software, workflows, etc.?</p></li>
+<li><p>What data are you using in a regular basis?</p></li>
+<li><p>Where do you store data you are currently using in a project? Do you need to apply for storage quota and if yes how do you proceed?</p></li>
+<li><p>What software/methods are you using? Are they developed within your team or are you using commercial or Open source software maintained by others? How do you report bugs or feature requests?</p></li>
+<li><p>Do you work on your laptop only? Or on University/organisation servers? Or on the cloud?</p></li>
+<li><p>Are you using computational and/or storage resources managed by your University, national provider or commercial cloud providers? Are you able to install any software/libraries you would need? How much time do you wait to get it available?</p></li>
+<li><p>When publishing scientific papers, do you also link to data, software, workflows?</p></li>
+<li><p>Where do you publish your data, software, workflows, presentations, etc.?</p></li>
+<li><p>Is your University/organisation taking into account all your contributions or only scientific papers published in some journals?</p></li>
+<li><p>How do you collaborate? With internal collaborators? With external collaborators?</p></li>
+</ul>
+<p>And list the biggest issues in your work (we give some examples below):</p>
+<ul class="simple">
+<li><p>Too much administrative work and not enough time for my own research;</p></li>
+<li><p>Only scientific papers are counted by my managements so I cannot afford to waste time on FAIR and Open Science;</p></li>
+<li><p>…</p></li>
+</ul>
+</section>
+<section id="can-o">
+<h2>Can O<a class="headerlink" href="#can-o" title="Permalink to this heading">#</a></h2>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -420,20 +467,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="terminology.html"
+       href="fair_os.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">A short introduction to EOSC and its terminology</p>
+        <p class="prev-next-title">FAIR and Open Science</p>
       </div>
     </a>
     <a class="right-next"
-       href="fair_os.html"
+       href="registration.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">FAIR and Open Science</p>
+        <p class="prev-next-title">Getting started with EOSC</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -444,7 +491,21 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#identifying-current-practices">Identifying current practices</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#can-o">Can O</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>

@@ -1,6 +1,6 @@
-# A short introduction to EOSC and its terminology
+# The European Open Science Cloud (EOSC)
 
-## EOSC
+## EOSC presented by EOSC
 
  **EOSC**: European Open Science Cloud. *The European Open Science Cloud is a European Commission initiative aiming at developing an infrastructure providing its users with services promoting open science practices (Wikipedia).*
 
@@ -17,7 +17,7 @@
 
 - **EOSC**: European Open Science Cloud
 
-- **EOSC portal**: The [EOSC Portal](https://eosc-portal.eu/) is part of the EOSC implementation roadmap as one of the expected “federating core” services contributing to the implementation of the “Access and interface” action line. It has been conceived to provide a European delivery channel connecting the demand-side and the supply-side of the EOSC and all its stakeholders. [Learn more](https://eosc-portal.eu/about/eosc-portal)
+- **EOSC portal**: The [EOSC Portal](https://eosc-portal.eu/) is part of the EOSC implementation roadmap as one of the expected “federating core services” contributing to the implementation of the “Access and interface” action line. It has been conceived to provide a European delivery channel connecting the demand-side and the supply-side of the EOSC and all its stakeholders. [Learn more](https://eosc-portal.eu/about/eosc-portal)
 
 - **Marketplace**: The [Marketplace](https://marketplace.eosc-portal.eu) is the EOSC Portal tool where researchers can discover, order and access the services, analytical tools, data management tools, storage and computing services they need for their work.
 
