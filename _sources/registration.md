@@ -1,4 +1,6 @@
-# Registration & Access to EOSC 
+# Getting started with EOSC
+
+## Registration & Access to EOSC 
 
 To access most EOSC services, we recommend using EGI Check-in so we first need to register to EGI Check-in:
 
@@ -19,6 +21,6 @@ To access most EOSC services, we recommend using EGI Check-in so we first need t
 
 ![successful EGI SSO registration](images/EGI-SSO-success.png)
 
-## Registration and access to EOSC service
+## Enrollment to a VO to access an EOSC service
 
 
