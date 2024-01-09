@@ -29,7 +29,7 @@
 
 - **EGI Check-in**: [EGI Check-in](https://www.egi.eu/service/check-in/) is a proxy service that operates as a central hub to connect federated Identity Providers (IdPs) with EGI service providers.
 
-- **MVE**: (or Minimum Value EOSC) is a version of the EOSC consisting in the minimum set of components required for its deployment (according to a specification of the minimal functionality/features and quality of service) allowing to collect the maximum amount of EOSC stakeholders" feedback with the least effort. 
+- **MVE**: (or Minimum Value EOSC) is a version of the EOSC consisting in the minimum set of components required for its deployment (according to a specification of the minimal functionality/features and quality of service) allowing to collect the maximum amount of EOSC stakeholders' feedback with the least effort. 
 
 
 You can find many more definitions of terms used within the EOSC context at the [EOSC Glossary](https://eosc-portal.eu/about/glossary).
