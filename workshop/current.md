@@ -2,7 +2,14 @@
 
 ## Identifying current practices
 
+## An additional burden for scientists or an opportunity
+
 As a whole classroom or in small groups (3-4) depending on the total number of participants.
+
+- What are the current practices?
+- What are the current bottlenecks?
+- Are FAIR and Open Science practices an additional burden or an opportunity ?
+
 
 The main goal of this exercise is to understand the current practices of researchers (how they effectively work in their lab) with a goal to express the main bottlenecks.
 
@@ -30,10 +37,5 @@ And you can also consider the following list of questions:
 - Is your University/organisation taking into account all your contributions or only scientific papers published in some journals?
 - How do you collaborate? With internal collaborators? With external collaborators? 
 
-And list the biggest issues in your work (we give some examples below):
-- Too much administrative work and not enough time for my own research;
-- Only scientific papers are taken into account by my managements so I cannot afford to waste time on FAIR and Open Science;
-- Access to compute and storage resources appropriate for my work;
-- ...
 
 

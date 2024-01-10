@@ -9,8 +9,8 @@ chapters:
 - file: terminology
 - file: fair_os
 - file: current
-- file: registration
 - file: example
+- file: registration
 - file: exercises
 - file: collaboration
 - file: next
