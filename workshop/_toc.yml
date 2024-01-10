@@ -15,3 +15,4 @@ chapters:
 - file: collaboration
 - file: next
 - file: feedback
+- file: pangeo-gpu-test
