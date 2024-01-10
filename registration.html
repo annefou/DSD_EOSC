@@ -187,7 +187,6 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="exercises.html">Try it out yourself</a></li>
 <li class="toctree-l1"><a class="reference internal" href="collaboration.html">Why and how getting involved</a></li>
 <li class="toctree-l1"><a class="reference internal" href="next.html">Discussion, summary and next steps</a></li>
-<li class="toctree-l1"><a class="reference internal" href="feedback.html">Providing feedback</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pangeo-gpu-test.html">Penguins example</a></li>
 </ul>
 
@@ -384,9 +383,12 @@ document.write(`
             </div>
             <nav aria-label="Page">
                 <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#registration-access-to-eosc">Registration &amp; Access to EOSC</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#registration-to-egi-check-in-with-egi-sso">Registration to EGI Check-in with EGI SSO</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enrollment-to-a-vo-to-access-an-eosc-service">Enrollment to a VO to access an EOSC service</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#registration-access-to-eosc">Registration &amp; Access to EOSC</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#registration-to-egi-check-in-with-egi-sso">Registration to EGI Check-in with EGI SSO</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#enrollment-to-a-vo-to-access-an-eosc-service">Enrollment to a VO to access an EOSC service</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#users-how-to-get-access-to-pangeo-eosc-services">Users: How to get access to <code class="docutils literal notranslate"><span class="pre">pangeo-eosc</span></code> services?</a></li>
+</ul>
+</li>
 </ul>
             </nav>
         </div>
@@ -402,10 +404,9 @@ document.write(`
 <h1>Getting started with EOSC<a class="headerlink" href="#getting-started-with-eosc" title="Permalink to this heading">#</a></h1>
 <section id="registration-access-to-eosc">
 <h2>Registration &amp; Access to EOSC<a class="headerlink" href="#registration-access-to-eosc" title="Permalink to this heading">#</a></h2>
-<p>To access most EOSC services, we recommend using EGI Check-in so we first need to register to EGI Check-in:</p>
-</section>
+<p>To access most EOSC services, we recommend using EGI Check-in so we first need to register to EGI Check-in and then enroll to a VO (Virtual Organisation) of an EOSC service.</p>
 <section id="registration-to-egi-check-in-with-egi-sso">
-<h2>Registration to EGI Check-in with EGI SSO<a class="headerlink" href="#registration-to-egi-check-in-with-egi-sso" title="Permalink to this heading">#</a></h2>
+<h3>Registration to EGI Check-in with EGI SSO<a class="headerlink" href="#registration-to-egi-check-in-with-egi-sso" title="Permalink to this heading">#</a></h3>
 <ul class="simple">
 <li><p>Go to <a class="reference external" href="https://sso-admin.egi.eu/admin/email">https://sso-admin.egi.eu/admin/email</a></p></li>
 </ul>
@@ -422,7 +423,21 @@ Follow the instructions given in the email e.g. click on the link provided to va
 <p><img alt="successful EGI SSO registration" src="_images/EGI-SSO-success.png" /></p>
 </section>
 <section id="enrollment-to-a-vo-to-access-an-eosc-service">
-<h2>Enrollment to a VO to access an EOSC service<a class="headerlink" href="#enrollment-to-a-vo-to-access-an-eosc-service" title="Permalink to this heading">#</a></h2>
+<h3>Enrollment to a VO to access an EOSC service<a class="headerlink" href="#enrollment-to-a-vo-to-access-an-eosc-service" title="Permalink to this heading">#</a></h3>
+<p>The step above are done once and allow to register and access EOSC services. To access a specific EOSC service, you have to *enroll” to a <em>Virtual Organization</em>. A specific service can have several Virtual Organizations to customize access (for instance, provide different quotas, etc.).</p>
+<p>Some EOSC services enroll users “automatically” when they sign-up to their service. For others, you need to request access.</p>
+</section>
+<section id="users-how-to-get-access-to-pangeo-eosc-services">
+<h3>Users: How to get access to <code class="docutils literal notranslate"><span class="pre">pangeo-eosc</span></code> services?<a class="headerlink" href="#users-how-to-get-access-to-pangeo-eosc-services" title="Permalink to this heading">#</a></h3>
+<p>In this section you will learn how to register and access <code class="docutils literal notranslate"><span class="pre">pangeo-eosc</span></code> services.</p>
+<p>You need to create an <a class="reference external" href="https://www.egi.eu/service/check-in/">EGI Check-in account</a> and enroll to the <code class="docutils literal notranslate"><span class="pre">vo.pangeo.eu</span></code> Virtual Organisation. There are several steps to follow:</p>
+<ol class="arabic simple">
+<li><p>Sign up for an EGI account on the <strong>development instance</strong> of EGI Check-In, clicking on: <a class="reference external" href="https://aai-dev.egi.eu/registry/co_petitions/start/coef:2">https://aai-dev.egi.eu/registry/co_petitions/start/coef:2</a>.</p></li>
+<li><p><strong>Enroll</strong> in the <code class="docutils literal notranslate"><span class="pre">vo.pangeo.eu</span></code> Virtual Organisation (VO) by clicking on: <a class="reference external" href="https://aai-dev.egi.eu/registry/co_petitions/start/coef:290">https://aai-dev.egi.eu/registry/co_petitions/start/coef:290</a>. Review and click on <code class="docutils literal notranslate"><span class="pre">Submit</span></code>. Please add a note in the statement of purpose when requesting to join the VO explaining as “Workshop on EOSC at the University of Oslo for the Digital Scholarship Days 2024.”.</p></li>
+</ol>
+<p>Managers of the Virtual Organisations may <strong>take several days</strong> to approve your petitions to join and also get back to you via email to verify your identity.</p>
+<p>Read more about <a class="reference external" href="https://www.egi.eu/article/scaling-new-heights-with-pangeo-openeo-pangeoeosc-meets-earth-observation-experts-at-bids-2023/">Pangeo&#64;EOSC</a>.</p>
+</section>
 </section>
 </section>
 
@@ -490,9 +505,12 @@ Follow the instructions given in the email e.g. click on the link provided to va
   </div>
   <nav class="bd-toc-nav page-toc">
     <ul class="visible nav section-nav flex-column">
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#registration-access-to-eosc">Registration &amp; Access to EOSC</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#registration-to-egi-check-in-with-egi-sso">Registration to EGI Check-in with EGI SSO</a></li>
-<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#enrollment-to-a-vo-to-access-an-eosc-service">Enrollment to a VO to access an EOSC service</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#registration-access-to-eosc">Registration &amp; Access to EOSC</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#registration-to-egi-check-in-with-egi-sso">Registration to EGI Check-in with EGI SSO</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#enrollment-to-a-vo-to-access-an-eosc-service">Enrollment to a VO to access an EOSC service</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#users-how-to-get-access-to-pangeo-eosc-services">Users: How to get access to <code class="docutils literal notranslate"><span class="pre">pangeo-eosc</span></code> services?</a></li>
+</ul>
+</li>
 </ul>
   </nav></div>
 
