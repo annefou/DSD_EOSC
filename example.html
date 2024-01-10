@@ -9,7 +9,7 @@
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" /><meta name="generator" content="Docutils 0.17.1: http://docutils.sourceforge.net/" />
 
-    <title>Work along session with an example &#8212; Unlocking the Power of EOSC</title>
+    <title>Examples of services to realize Open Science in practice &#8212; Unlocking the Power of EOSC</title>
   
   
   
@@ -65,8 +65,8 @@ const thebe_selector_output = ".output, .cell_output"
     <script>DOCUMENTATION_OPTIONS.pagename = 'example';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
-    <link rel="next" title="Try it out yourself" href="exercises.html" />
-    <link rel="prev" title="Getting started with EOSC" href="registration.html" />
+    <link rel="next" title="Getting started with EOSC" href="registration.html" />
+    <link rel="prev" title="Discussion on current working practices and bottlenecks" href="current.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -182,11 +182,9 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="terminology.html">The European Open Science Cloud (EOSC)</a></li>
 <li class="toctree-l1"><a class="reference internal" href="fair_os.html">FAIR and Open Science</a></li>
 <li class="toctree-l1"><a class="reference internal" href="current.html">Discussion on current working practices and bottlenecks</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Examples of services to realize Open Science in practice</a></li>
 <li class="toctree-l1"><a class="reference internal" href="registration.html">Getting started with EOSC</a></li>
-<li class="toctree-l1 current active"><a class="current reference internal" href="#">Work along session with an example</a></li>
 <li class="toctree-l1"><a class="reference internal" href="exercises.html">Try it out yourself</a></li>
-<li class="toctree-l1"><a class="reference internal" href="collaboration.html">Why and how getting involved</a></li>
-<li class="toctree-l1"><a class="reference internal" href="next.html">Discussion, summary and next steps</a></li>
 <li class="toctree-l1"><a class="reference internal" href="pangeo-gpu-test.html">Penguins example</a></li>
 </ul>
 
@@ -360,7 +358,9 @@ document.write(`
   </button>
 `);
 </script>
-
+<label class="sidebar-toggle secondary-toggle btn btn-sm" for="__secondary"title="Toggle secondary sidebar" data-bs-placement="bottom" data-bs-toggle="tooltip">
+    <span class="fa-solid fa-list"></span>
+</label>
 </div></div>
       
     </div>
@@ -371,11 +371,29 @@ document.write(`
               
 
 <div id="jb-print-docs-body" class="onlyprint">
-    <h1>Work along session with an example</h1>
+    <h1>Examples of services to realize Open Science in practice</h1>
     <!-- Table of contents -->
     <div id="print-main-content">
         <div id="jb-print-toc">
             
+            <div>
+                <h2> Contents </h2>
+            </div>
+            <nav aria-label="Page">
+                <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eosc-explore-https-search-marketplace-eosc-portal-eu">EOSC | Explore https://search.marketplace.eosc-portal.eu</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#openaire-explore-https-explore-openaire-eu">OpenAIRE | Explore https://explore.openaire.eu</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rohub-research-data-management-hub-https-www-rohub-org">ROHub, Research Data Management Hub https://www.rohub.org</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#egi-datahub-https-datahub-egi-eu">EGI Datahub https://datahub.egi.eu</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebook-services">Jupyter notebook services:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#egi-notebooks-https-notebooks-egi-eu-hub">EGI notebooks https://notebooks.egi.eu/hub</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#egi-replay-https-replay-notebooks-egi-eu">EGI Replay https://replay.notebooks.egi.eu</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#european-galaxy-server-https-usegalaxy-eu">European Galaxy Server https://usegalaxy.eu</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pangeo-eosc">Pangeo@EOSC</a></li>
+</ul>
+            </nav>
         </div>
     </div>
 </div>
@@ -385,8 +403,58 @@ document.write(`
 <div id="searchbox"></div>
                 <article class="bd-article">
                   
-  <section class="tex2jax_ignore mathjax_ignore" id="work-along-session-with-an-example">
-<h1>Work along session with an example<a class="headerlink" href="#work-along-session-with-an-example" title="Permalink to this heading">#</a></h1>
+  <section class="tex2jax_ignore mathjax_ignore" id="examples-of-services-to-realize-open-science-in-practice">
+<h1>Examples of services to realize Open Science in practice<a class="headerlink" href="#examples-of-services-to-realize-open-science-in-practice" title="Permalink to this heading">#</a></h1>
+<p>To practice Open Science, we need to share data, code, tools, and results (see image below), early and definitely not at the end of a project. The goal of this section is to introduce some of the EOSC services that can help you to do that.</p>
+<section id="eosc-explore-https-search-marketplace-eosc-portal-eu">
+<h2>EOSC | Explore <a class="reference external" href="https://search.marketplace.eosc-portal.eu">https://search.marketplace.eosc-portal.eu</a><a class="headerlink" href="#eosc-explore-https-search-marketplace-eosc-portal-eu" title="Permalink to this heading">#</a></h2>
+<p>Browse through over 3 millions of research and innovation tools and services, thousands of datasets from a wide scale of research domains from renowned European service providers.</p>
+</section>
+<section id="openaire-explore-https-explore-openaire-eu">
+<h2>OpenAIRE | Explore <a class="reference external" href="https://explore.openaire.eu">https://explore.openaire.eu</a><a class="headerlink" href="#openaire-explore-https-explore-openaire-eu" title="Permalink to this heading">#</a></h2>
+<p>A comprehensive and open dataset of research information covering 174M publications, 60M research data, 397K research software items, from 129K data sources, linked to 3M grants and 204K organizations. All linked together through citations and semantics.</p>
+</section>
+<section id="rohub-research-data-management-hub-https-www-rohub-org">
+<h2>ROHub, Research Data Management Hub <a class="reference external" href="https://www.rohub.org">https://www.rohub.org</a><a class="headerlink" href="#rohub-research-data-management-hub-https-www-rohub-org" title="Permalink to this heading">#</a></h2>
+<p>Research Objects are used to gather the data, code, tools and results so when publishing a paper, the RO DOI can be provided and would contain all the required information.</p>
+</section>
+<section id="egi-datahub-https-datahub-egi-eu">
+<h2>EGI Datahub <a class="reference external" href="https://datahub.egi.eu">https://datahub.egi.eu</a><a class="headerlink" href="#egi-datahub-https-datahub-egi-eu" title="Permalink to this heading">#</a></h2>
+<p>DataHub allows you to bring data close to computing to exploit it efficiently, and to publish a dataset and make it available to a specific community, or worldwide, across federated sites.</p>
+</section>
+<section id="jupyter-notebook-services">
+<h2>Jupyter notebook services:<a class="headerlink" href="#jupyter-notebook-services" title="Permalink to this heading">#</a></h2>
+<section id="egi-notebooks-https-notebooks-egi-eu-hub">
+<h3>EGI notebooks <a class="reference external" href="https://notebooks.egi.eu/hub">https://notebooks.egi.eu/hub</a><a class="headerlink" href="#egi-notebooks-https-notebooks-egi-eu-hub" title="Permalink to this heading">#</a></h3>
+<p>Notebooks is a browser-based tool for interactive analysis of data using EGI storage and compute services.</p>
+<ul class="simple">
+<li><p>General purpose:</p></li>
+<li><p>Number of CPU Cores    1 - 8</p></li>
+<li><p>Amount of RAM per CPU core    1 - 4 GB</p></li>
+<li><p>Local disk    10 - 40 GB</p></li>
+<li><p>Access type    opportunistic - reserved</p></li>
+</ul>
+</section>
+<section id="egi-replay-https-replay-notebooks-egi-eu">
+<h3>EGI Replay <a class="reference external" href="https://replay.notebooks.egi.eu">https://replay.notebooks.egi.eu</a><a class="headerlink" href="#egi-replay-https-replay-notebooks-egi-eu" title="Permalink to this heading">#</a></h3>
+<p>EGI Replay allows to reproduce and share custom computing environments effortlessly. With Replay one can replicate the execution of their analysis in a notebooks-based platform ensuring that others can easily access and interact with the content. The service builds on BinderHub, and allows to build docker images from a Git repository and then makes them available through your browser with EGI resources (up to 6GB RAM, no hard limit on the session time per user, etc.).</p>
+</section>
+</section>
+<section id="european-galaxy-server-https-usegalaxy-eu">
+<h2>European Galaxy Server <a class="reference external" href="https://usegalaxy.eu">https://usegalaxy.eu</a><a class="headerlink" href="#european-galaxy-server-https-usegalaxy-eu" title="Permalink to this heading">#</a></h2>
+<p>The European Galaxy server is an open web-based platform for data intensive research which provides access to computing and storage resources without charge, but also tools, training material and a Training Infrastructure as a Service (TIAaS). Taking it further EuroScienceGateway (<a class="reference external" href="http://www.eurosciencegateway.eu">http://www.eurosciencegateway.eu</a>) is a project which aims at connecting Galaxy to large e-infrastructures in order to be able to distribute jobs across Europe (Pulsar Network).</p>
+</section>
+<section id="pangeo-eosc">
+<h2>Pangeo&#64;EOSC<a class="headerlink" href="#pangeo-eosc" title="Permalink to this heading">#</a></h2>
+<p>And you can also “become” a service provider. For instance, EOSC-Pangeo <a class="reference external" href="http://pangeo-eosc.vm.fedcloud.eu">http://pangeo-eosc.vm.fedcloud.eu</a></p>
+<p>The latest version of the Pangeo stack and, depending on your selection:</p>
+<ul class="simple">
+<li><p>A Jupyter notebook with Pangeo Python core packages (Xarray, Iris, Dask)</p></li>
+<li><p>A Machine Learning notebook (with Tensorflow and a GPU)</p></li>
+<li><p>A similar Pytorch notebook (also with GPU)</p></li>
+<li><p>A DataScience notebook (with also Julia and R)</p></li>
+</ul>
+</section>
 </section>
 
     <script type="text/x-thebe-config">
@@ -420,20 +488,20 @@ document.write(`
                   
 <div class="prev-next-area">
     <a class="left-prev"
-       href="registration.html"
+       href="current.html"
        title="previous page">
       <i class="fa-solid fa-angle-left"></i>
       <div class="prev-next-info">
         <p class="prev-next-subtitle">previous</p>
-        <p class="prev-next-title">Getting started with EOSC</p>
+        <p class="prev-next-title">Discussion on current working practices and bottlenecks</p>
       </div>
     </a>
     <a class="right-next"
-       href="exercises.html"
+       href="registration.html"
        title="next page">
       <div class="prev-next-info">
         <p class="prev-next-subtitle">next</p>
-        <p class="prev-next-title">Try it out yourself</p>
+        <p class="prev-next-title">Getting started with EOSC</p>
       </div>
       <i class="fa-solid fa-angle-right"></i>
     </a>
@@ -444,7 +512,30 @@ document.write(`
             
             
               
-                <div class="bd-sidebar-secondary bd-toc"></div>
+                <div class="bd-sidebar-secondary bd-toc"><div class="sidebar-secondary-items sidebar-secondary__inner">
+
+
+  <div class="sidebar-secondary-item">
+  <div class="page-toc tocsection onthispage">
+    <i class="fa-solid fa-list"></i> Contents
+  </div>
+  <nav class="bd-toc-nav page-toc">
+    <ul class="visible nav section-nav flex-column">
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#eosc-explore-https-search-marketplace-eosc-portal-eu">EOSC | Explore https://search.marketplace.eosc-portal.eu</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#openaire-explore-https-explore-openaire-eu">OpenAIRE | Explore https://explore.openaire.eu</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#rohub-research-data-management-hub-https-www-rohub-org">ROHub, Research Data Management Hub https://www.rohub.org</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#egi-datahub-https-datahub-egi-eu">EGI Datahub https://datahub.egi.eu</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#jupyter-notebook-services">Jupyter notebook services:</a><ul class="nav section-nav flex-column">
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#egi-notebooks-https-notebooks-egi-eu-hub">EGI notebooks https://notebooks.egi.eu/hub</a></li>
+<li class="toc-h3 nav-item toc-entry"><a class="reference internal nav-link" href="#egi-replay-https-replay-notebooks-egi-eu">EGI Replay https://replay.notebooks.egi.eu</a></li>
+</ul>
+</li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#european-galaxy-server-https-usegalaxy-eu">European Galaxy Server https://usegalaxy.eu</a></li>
+<li class="toc-h2 nav-item toc-entry"><a class="reference internal nav-link" href="#pangeo-eosc">Pangeo@EOSC</a></li>
+</ul>
+  </nav></div>
+
+</div></div>
               
             
           </div>
