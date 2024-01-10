@@ -62,9 +62,10 @@ const thebe_selector_input = "pre"
 const thebe_selector_output = ".output, .cell_output"
 </script>
     <script async="async" src="_static/sphinx-thebe.js"></script>
-    <script>DOCUMENTATION_OPTIONS.pagename = 'pangeo-gpu-test-v3';</script>
+    <script>DOCUMENTATION_OPTIONS.pagename = 'pangeo-gpu-test';</script>
     <link rel="index" title="Index" href="genindex.html" />
     <link rel="search" title="Search" href="search.html" />
+    <link rel="prev" title="Providing feedback" href="feedback.html" />
   <meta name="viewport" content="width=device-width, initial-scale=1"/>
   <meta name="docsearch:language" content="en"/>
   </head>
@@ -174,7 +175,7 @@ const thebe_selector_output = ".output, .cell_output"
                 </a>
             </li>
         </ul>
-        <ul class="nav bd-sidenav">
+        <ul class="current nav bd-sidenav">
 <li class="toctree-l1"><a class="reference internal" href="coc.html">Code of Conduct and community participation guidelines</a></li>
 <li class="toctree-l1"><a class="reference internal" href="agenda.html">Agenda for the session</a></li>
 <li class="toctree-l1"><a class="reference internal" href="terminology.html">The European Open Science Cloud (EOSC)</a></li>
@@ -186,6 +187,7 @@ const thebe_selector_output = ".output, .cell_output"
 <li class="toctree-l1"><a class="reference internal" href="collaboration.html">Why and how getting involved</a></li>
 <li class="toctree-l1"><a class="reference internal" href="next.html">Discussion, summary and next steps</a></li>
 <li class="toctree-l1"><a class="reference internal" href="feedback.html">Providing feedback</a></li>
+<li class="toctree-l1 current active"><a class="current reference internal" href="#">Penguins example</a></li>
 </ul>
 
     </div>
@@ -257,7 +259,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="https://github.com/annefou/DSD_EOSC/issues/new?title=Issue%20on%20page%20%2Fpangeo-gpu-test-v3.html&body=Your%20issue%20content%20here." target="_blank"
+      <li><a href="https://github.com/annefou/DSD_EOSC/issues/new?title=Issue%20on%20page%20%2Fpangeo-gpu-test.html&body=Your%20issue%20content%20here." target="_blank"
    class="btn btn-sm btn-source-issues-button dropdown-item"
    title="Open an issue"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -287,7 +289,7 @@ const thebe_selector_output = ".output, .cell_output"
       
       
       
-      <li><a href="_sources/pangeo-gpu-test-v3.ipynb" target="_blank"
+      <li><a href="_sources/pangeo-gpu-test.ipynb" target="_blank"
    class="btn btn-sm btn-download-source-button dropdown-item"
    title="Download source file"
    data-bs-placement="left" data-bs-toggle="tooltip"
@@ -409,48 +411,16 @@ document.write(`
 </div>
 <div class="cell_output docutils container">
 <div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Collecting palmerpenguins
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>  Downloading palmerpenguins-0.1.4-py3-none-any.whl (17 kB)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Collecting pandas (from palmerpenguins)
-  Downloading pandas-2.1.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl.metadata (18 kB)
-Requirement already satisfied: numpy in /home/runner/micromamba/envs/eosc-dsd24/lib/python3.11/site-packages (from palmerpenguins) (1.26.3)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Requirement already satisfied: python-dateutil&gt;=2.8.2 in /home/runner/micromamba/envs/eosc-dsd24/lib/python3.11/site-packages (from pandas-&gt;palmerpenguins) (2.8.2)
-Requirement already satisfied: pytz&gt;=2020.1 in /home/runner/micromamba/envs/eosc-dsd24/lib/python3.11/site-packages (from pandas-&gt;palmerpenguins) (2023.3.post1)
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Collecting tzdata&gt;=2022.1 (from pandas-&gt;palmerpenguins)
-  Downloading tzdata-2023.4-py2.py3-none-any.whl.metadata (1.4 kB)
-Requirement already satisfied: six&gt;=1.5 in /home/runner/micromamba/envs/eosc-dsd24/lib/python3.11/site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas-&gt;palmerpenguins) (1.16.0)
-Downloading pandas-2.1.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.whl (12.2 MB)
-?25l   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">0.0/12.2 MB</span> <span class=" -Color -Color-Red">?</span> eta <span class=" -Color -Color-Cyan">-:--:--</span>
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>   ━━━━━━━╸━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">2.4/12.2 MB</span> <span class=" -Color -Color-Red">71.2 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:01</span>
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━╺━━━━━━━━━━━━━ <span class=" -Color -Color-Green">8.0/12.2 MB</span> <span class=" -Color -Color-Red">117.5 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:01</span>
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━╸ <span class=" -Color -Color-Green">12.2/12.2 MB</span> <span class=" -Color -Color-Red">176.5 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:01</span>
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">12.2/12.2 MB</span> <span class=" -Color -Color-Red">115.7 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
-?25hDownloading tzdata-2023.4-py2.py3-none-any.whl (346 kB)
-?25l   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">0.0/346.6 kB</span> <span class=" -Color -Color-Red">?</span> eta <span class=" -Color -Color-Cyan">-:--:--</span>
-   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ <span class=" -Color -Color-Green">346.6/346.6 kB</span> <span class=" -Color -Color-Red">73.4 MB/s</span> eta <span class=" -Color -Color-Cyan">0:00:00</span>
-?25h
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Installing collected packages: tzdata, pandas, palmerpenguins
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Successfully installed palmerpenguins-0.1.4 pandas-2.1.4 tzdata-2023.4
-</pre></div>
-</div>
-<div class="output stream highlight-myst-ansi notranslate"><div class="highlight"><pre><span></span>Note: you may need to restart the kernel to use updated packages.
+  Downloading palmerpenguins-0.1.4-py3-none-any.whl (17 kB)
+Requirement already satisfied: pandas in /srv/conda/envs/notebook/lib/python3.11/site-packages (from palmerpenguins) (2.1.4)
+Requirement already satisfied: numpy in /srv/conda/envs/notebook/lib/python3.11/site-packages (from palmerpenguins) (1.26.2)
+Requirement already satisfied: python-dateutil&gt;=2.8.2 in /srv/conda/envs/notebook/lib/python3.11/site-packages (from pandas-&gt;palmerpenguins) (2.8.2)
+Requirement already satisfied: pytz&gt;=2020.1 in /srv/conda/envs/notebook/lib/python3.11/site-packages (from pandas-&gt;palmerpenguins) (2023.3.post1)
+Requirement already satisfied: tzdata&gt;=2022.1 in /srv/conda/envs/notebook/lib/python3.11/site-packages (from pandas-&gt;palmerpenguins) (2023.3)
+Requirement already satisfied: six&gt;=1.5 in /srv/conda/envs/notebook/lib/python3.11/site-packages (from python-dateutil&gt;=2.8.2-&gt;pandas-&gt;palmerpenguins) (1.16.0)
+Installing collected packages: palmerpenguins
+Successfully installed palmerpenguins-0.1.4
+Note: you may need to restart the kernel to use updated packages.
 </pre></div>
 </div>
 </div>
@@ -461,19 +431,6 @@ Downloading pandas-2.1.4-cp311-cp311-manylinux_2_17_x86_64.manylinux2014_x86_64.
 <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span> 
 <span class="kn">from</span> <span class="nn">palmerpenguins</span> <span class="kn">import</span> <span class="n">load_penguins</span>
 <span class="n">sns</span><span class="o">.</span><span class="n">set_style</span><span class="p">(</span><span class="s1">&#39;whitegrid&#39;</span><span class="p">)</span>
-</pre></div>
-</div>
-</div>
-<div class="cell_output docutils container">
-<div class="output traceback highlight-ipythontb notranslate"><div class="highlight"><pre><span></span><span class="gt">---------------------------------------------------------------------------</span>
-<span class="ne">ModuleNotFoundError</span><span class="g g-Whitespace">                       </span>Traceback (most recent call last)
-<span class="n">Cell</span> <span class="n">In</span><span class="p">[</span><span class="mi">2</span><span class="p">],</span> <span class="n">line</span> <span class="mi">2</span>
-<span class="g g-Whitespace">      </span><span class="mi">1</span> <span class="kn">import</span> <span class="nn">pandas</span> <span class="k">as</span> <span class="nn">pd</span>
-<span class="ne">----&gt; </span><span class="mi">2</span> <span class="kn">import</span> <span class="nn">seaborn</span> <span class="k">as</span> <span class="nn">sns</span> 
-<span class="g g-Whitespace">      </span><span class="mi">3</span> <span class="kn">from</span> <span class="nn">palmerpenguins</span> <span class="kn">import</span> <span class="n">load_penguins</span>
-<span class="g g-Whitespace">      </span><span class="mi">4</span> <span class="n">sns</span><span class="o">.</span><span class="n">set_style</span><span class="p">(</span><span class="s1">&#39;whitegrid&#39;</span><span class="p">)</span>
-
-<span class="ne">ModuleNotFoundError</span>: No module named &#39;seaborn&#39;
 </pre></div>
 </div>
 </div>
@@ -2649,6 +2606,15 @@ Categories (3, object): [&#39;Adelie&#39;, &#39;Chinstrap&#39;, &#39;Gentoo&#39;
                 <footer class="prev-next-footer">
                   
 <div class="prev-next-area">
+    <a class="left-prev"
+       href="feedback.html"
+       title="previous page">
+      <i class="fa-solid fa-angle-left"></i>
+      <div class="prev-next-info">
+        <p class="prev-next-subtitle">previous</p>
+        <p class="prev-next-title">Providing feedback</p>
+      </div>
+    </a>
 </div>
                 </footer>
               
